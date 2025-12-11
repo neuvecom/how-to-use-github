@@ -23,6 +23,7 @@ export default defineConfig({
         ],
         components: {
             MarkdownContent: './src/components/MarkdownContent.astro',
+            Head: './src/components/Head.astro',
         },
         sidebar: [
             { label: '学習進捗', link: '/progress/' },

@@ -1,0 +1,21 @@
+---
+// GA4 Measurement ID と Cloudflare Web Analytics Token を設定
+const GA4_MEASUREMENT_ID = 'G-XXXXXXXXXX'; // ← 実際のGA4測定IDに置き換えてください
+const CF_BEACON_TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // ← 実際のCloudflareトークンに置き換えてください
+
+const { head } = Astro.locals.starlightRoute;
+---
+
+{head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
+
+<!-- Google Analytics 4 -->
+<script async src={`https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}`}></script>
+<script is:inline define:vars={{ GA4_MEASUREMENT_ID }}>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', GA4_MEASUREMENT_ID);
+</script>
+
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon={`{"token": "${CF_BEACON_TOKEN}"}`}></script>
