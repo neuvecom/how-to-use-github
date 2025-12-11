@@ -1,0 +1,72 @@
+/* GitHub完全ガイド カスタムスタイル */
+
+/* ライトモード用のカラー設定 */
+:root {
+	--sl-font: 'Noto Sans JP', system-ui, sans-serif;
+	--sl-color-accent-low: #c8e1ff;
+	--sl-color-accent: #0366d6;
+	--sl-color-accent-high: #032f62;
+}
+
+/* ダークモード用のカラー設定 */
+:root[data-theme='dark'] {
+	--sl-color-accent-low: #1a3a5c;
+	--sl-color-accent: #58a6ff;
+	--sl-color-accent-high: #a5d6ff;
+}
+
+/* 日本語フォントの読みやすさ向上 */
+html {
+	font-feature-settings: 'palt' 1;
+}
+
+/* コードブロックのスタイル */
+pre {
+	border-radius: 6px;
+}
+
+/* テーブルのスタイル改善 */
+table {
+	width: 100%;
+}
+
+th {
+	background-color: var(--sl-color-gray-6);
+}
+
+/* 見出しのスタイル */
+h1, h2, h3, h4, h5, h6 {
+	font-feature-settings: 'palt' 1;
+}
+
+/* 中級者向けTipsセクションのスタイル */
+.tips-section {
+	background-color: var(--sl-color-gray-6);
+	border-left: 4px solid var(--sl-color-accent);
+	padding: 1rem;
+	margin: 1.5rem 0;
+	border-radius: 0 6px 6px 0;
+}
+
+/* アサイドのスタイル調整 */
+.starlight-aside {
+	border-radius: 6px;
+}
+
+/* ダークモードでのサイトタイトル・ボタンの視認性向上 */
+:root[data-theme='dark'] {
+	/* サイトタイトル */
+	--sl-color-white: #ffffff;
+	--sl-color-text: #e6edf3;
+	--sl-color-text-accent: #a5d6ff;
+}
+
+/* ヒーローセクションのボタン（ダークモード） */
+:root[data-theme='dark'] .hero a.primary {
+	background-color: var(--sl-color-accent);
+	color: #0d1117;
+}
+
+:root[data-theme='dark'] .hero a.primary:hover {
+	background-color: var(--sl-color-accent-high);
+}

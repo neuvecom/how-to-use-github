@@ -1,0 +1,70 @@
+title: "GitHubの使い方完全ガイド"
+summary: "GitHubの基本から応用、運用フロー、AI活用までを網羅的に解説。初心者から中級者まで、実践的に学べる完全ガイドです。"
+topics: ["github", "git", "開発環境", "チーム開発", "copilot"]
+published: false
+price: 0
+chapters:
+  # 第1部：入門編
+  - 01-what-is-github
+  - 02-account-setup
+  - 03-repository-basics
+  # 第2部：日常操作編
+  - 04-git-basics
+  - 05-branch-management
+  - 06-pull-request
+  - 07-code-review
+  # 第3部：WebUI操作編
+  - 08-webui-file-editing
+  - 09-github-dev-editor
+  - 10-webui-branch-pr
+  - 11-webui-deploy
+  # 第4部：運用フロー編
+  - 12-branch-strategy
+  - 13-branch-naming
+  - 14-commit-convention
+  - 15-pr-rules
+  - 16-release-flow
+  # 第5部：ルール設定編
+  - 17-branch-protection
+  - 18-rulesets
+  - 19-codeowners
+  - 20-automation-rules
+  # 第6部：Issue・プロジェクト管理編
+  - 21-issues
+  - 22-github-projects
+  - 23-discussions
+  # 第7部：GitHub Actions編
+  - 24-actions-basics
+  - 25-actions-advanced
+  - 26-cicd-pipeline
+  # 第8部：セキュリティ編
+  - 27-dependabot
+  - 28-code-secret-scanning
+  - 29-access-management
+  # 第9部：GitHub Copilot編
+  - 30-copilot-overview
+  - 31-copilot-basics
+  - 32-copilot-chat
+  - 33-copilot-github-web
+  - 34-copilot-effective-use
+  - 35-copilot-settings
+  - 36-copilot-best-practices
+  # 第10部：組織・チーム管理編
+  - 37-organization
+  - 38-enterprise
+  # 第11部：その他の機能編
+  - 39-github-pages
+  - 40-github-packages
+  - 41-github-releases
+  - 42-gists-wiki
+  - 43-codespaces
+  # 第12部：API・CLI編
+  - 44-github-cli
+  - 45-github-api
+  # 第13部：トラブルシューティング編
+  - 46-troubleshooting
+  # 付録
+  - appendix-glossary
+  - appendix-shortcuts
+  - appendix-references
+  - appendix-templates
