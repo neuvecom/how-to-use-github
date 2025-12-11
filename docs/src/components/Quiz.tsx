@@ -135,9 +135,14 @@ export default function Quiz({ pageId, questions }: QuizProps) {
               結果: {score}/{questions.length} 問正解
               {score === questions.length && ' 🎉'}
             </p>
-            <button className="quiz-button reset" onClick={handleReset}>
-              もう一度挑戦する
-            </button>
+            <div className="quiz-actions">
+              <button className="quiz-button reset" onClick={handleReset}>
+                もう一度挑戦する
+              </button>
+              <a href="/how-to-use-github/progress/" className="quiz-button progress-link">
+                理解度一覧を見る
+              </a>
+            </div>
           </div>
         ) : (
           <button

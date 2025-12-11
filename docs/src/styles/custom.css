@@ -192,6 +192,13 @@ h1, h2, h3, h4, h5, h6 {
 	gap: 1rem;
 }
 
+.quiz-actions {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .quiz-result .score {
 	font-size: 1.25rem;
 	font-weight: 600;
@@ -229,6 +236,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .quiz-button.reset:hover {
 	background-color: var(--sl-color-gray-4);
+}
+
+.quiz-button.progress-link {
+	background-color: var(--sl-color-accent);
+	color: white;
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+}
+
+.quiz-button.progress-link:hover {
+	opacity: 0.9;
 }
 
 /* =====================================================
