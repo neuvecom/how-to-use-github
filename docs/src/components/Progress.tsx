@@ -237,6 +237,9 @@ export default function Progress() {
       </div>
 
       <div className="progress-actions">
+        <button className="back-button" onClick={() => history.back()}>
+          ← 戻る
+        </button>
         <button className="reset-all-button" onClick={handleResetAll}>
           すべての進捗をリセット
         </button>

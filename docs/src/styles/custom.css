@@ -359,7 +359,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .progress-actions {
 	margin-top: 2rem;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.back-button {
+	padding: 0.75rem 1.5rem;
+	background-color: var(--sl-color-gray-5);
+	color: var(--sl-color-text);
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 0.9rem;
+	transition: background-color 0.2s ease;
+}
+
+.back-button:hover {
+	background-color: var(--sl-color-gray-4);
 }
 
 .reset-all-button {
