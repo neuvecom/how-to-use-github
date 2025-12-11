@@ -11,17 +11,15 @@ const pageId = entry?.id?.replace(/\.mdx?$/, '') || '';
   <slot name="header" slot="header" />
   <slot name="sidebar" slot="sidebar" />
   <slot />
+  {quiz && quiz.length > 0 && (
+    <div class="quiz-wrapper">
+      <Quiz client:load pageId={pageId} questions={quiz} />
+    </div>
+  )}
 </Default>
-
-{quiz && quiz.length > 0 && (
-  <div class="quiz-wrapper sl-container">
-    <Quiz client:load pageId={pageId} questions={quiz} />
-  </div>
-)}
 
 <style>
   .quiz-wrapper {
     margin-top: 2rem;
-    padding: 0 1rem;
   }
 </style>
