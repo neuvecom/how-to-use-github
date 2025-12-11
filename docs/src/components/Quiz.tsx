@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import AffiliateBanner from './AffiliateBanner';
 
 export interface QuizQuestion {
   question: string;
@@ -143,6 +144,7 @@ export default function Quiz({ pageId, questions }: QuizProps) {
                 理解度一覧を見る
               </a>
             </div>
+            <AffiliateBanner />
           </div>
         ) : (
           <button
