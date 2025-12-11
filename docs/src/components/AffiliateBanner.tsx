@@ -11,7 +11,7 @@ interface AffiliateData {
   quiz: AdData[];
 }
 
-const SID = '3757428'; // バリューコマースのSID
+const SID = '3757792'; // バリューコマースのSID
 const INTERVAL = 8000; // 切り替え間隔（8秒）
 const FADE_DURATION = 500; // フェード時間（0.5秒）
 const PAUSE_DURATION = 30000; // 手動操作後の停止時間（30秒）
