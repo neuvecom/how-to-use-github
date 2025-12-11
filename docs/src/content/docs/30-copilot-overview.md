@@ -2,8 +2,6 @@
 title: "Copilot概要"
 ---
 
-# Copilot概要
-
 この章では、GitHub Copilotの概要、料金プラン、対応エディタ、利用規約について学びます。
 
 ## GitHub Copilotとは

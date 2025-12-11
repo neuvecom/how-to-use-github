@@ -2,8 +2,6 @@
 title: "Discussions"
 ---
 
-# Discussions
-
 この章では、GitHub Discussionsを使ったコミュニティコミュニケーションについて学びます。
 
 ## Discussionsとは

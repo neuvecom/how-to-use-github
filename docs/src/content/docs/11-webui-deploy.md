@@ -2,8 +2,6 @@
 title: "WebUIからのデプロイ"
 ---
 
-# WebUIからのデプロイ
-
 この章では、GitHub の Web UI からデプロイを実行する方法を学びます。GitHub Actions を活用して、ブラウザから本番環境へのデプロイが可能です。
 
 ## workflow_dispatch（手動実行）

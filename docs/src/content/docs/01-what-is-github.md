@@ -2,8 +2,6 @@
 title: "GitHubとは"
 ---
 
-# GitHubとは
-
 この章では、GitHubの基本概念と、似たようなサービスとの違いを理解します。
 
 ## GitとGitHubの違い

@@ -2,8 +2,6 @@
 title: "Code Scanning & Secret Scanning"
 ---
 
-# Code Scanning & Secret Scanning
-
 この章では、コードの脆弱性を検出するCode Scanningと、シークレットの漏洩を防ぐSecret Scanningについて学びます。
 
 ## Code Scanning

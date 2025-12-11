@@ -2,8 +2,6 @@
 title: "Copilot Chat"
 ---
 
-# Copilot Chat
-
 この章では、Copilot Chatを使ったコードの説明、バグ調査、リファクタリング、テスト生成について学びます。
 
 ## Copilot Chatとは

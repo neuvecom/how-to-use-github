@@ -2,8 +2,6 @@
 title: "GitHub Releases"
 ---
 
-# GitHub Releases
-
 この章では、GitHub Releasesを使ったリリース作成と自動生成について学びます。
 
 ## Releasesとは

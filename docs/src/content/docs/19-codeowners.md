@@ -2,8 +2,6 @@
 title: "CODEOWNERS設定"
 ---
 
-# CODEOWNERS設定
-
 この章では、CODEOWNERSファイルの書き方と活用方法を学びます。ファイルやディレクトリごとにレビュアーを自動割り当てできます。
 
 ## CODEOWNERSとは

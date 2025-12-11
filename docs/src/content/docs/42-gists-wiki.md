@@ -2,8 +2,6 @@
 title: "Gists & Wiki"
 ---
 
-# Gists & Wiki
-
 この章では、コードスニペット共有のためのGistsと、プロジェクトドキュメントのためのWikiについて学びます。
 
 ## Gists

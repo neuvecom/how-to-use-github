@@ -2,8 +2,6 @@
 title: "GitHub CLI（gh）"
 ---
 
-# GitHub CLI（gh）
-
 この章では、GitHub公式CLIツール「gh」のインストール、主要コマンド、エイリアスについて学びます。
 
 ## GitHub CLIとは

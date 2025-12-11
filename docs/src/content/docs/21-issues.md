@@ -2,8 +2,6 @@
 title: "Issues"
 ---
 
-# Issues
-
 この章では、GitHub Issuesの作成・管理方法、テンプレートの設定、ラベル・マイルストーンの活用を学びます。
 
 ## Issuesとは

@@ -2,8 +2,6 @@
 title: "GitHub Codespaces"
 ---
 
-# GitHub Codespaces
-
 この章では、GitHub Codespacesを使ったクラウド開発環境とdevcontainer設定について学びます。
 
 ## Codespacesとは

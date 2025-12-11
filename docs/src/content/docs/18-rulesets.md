@@ -2,8 +2,6 @@
 title: "Rulesets"
 ---
 
-# Rulesets
-
 この章では、GitHub の新しいルール管理機能「Rulesets」について学びます。従来のブランチ保護ルールとの違いや、より柔軟な設定方法を解説します。
 
 ## Rulesetsとは

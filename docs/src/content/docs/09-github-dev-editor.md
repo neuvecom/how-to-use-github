@@ -2,8 +2,6 @@
 title: "github.devエディタ"
 ---
 
-# github.devエディタ
-
 この章では、ブラウザ上で動作するVS Code風エディタ「github.dev」の使い方を学びます。ローカル環境なしで本格的なコード編集が可能です。
 
 ## github.devとは

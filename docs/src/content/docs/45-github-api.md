@@ -2,8 +2,6 @@
 title: "GitHub API"
 ---
 
-# GitHub API
-
 この章では、GitHub REST APIとGraphQL API、Webhooksについて学びます。
 
 ## GitHub APIの概要

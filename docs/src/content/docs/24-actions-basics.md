@@ -2,8 +2,6 @@
 title: "GitHub Actions基礎"
 ---
 
-# GitHub Actions基礎
-
 この章では、GitHub Actionsの基本概念、ワークフローの構造、トリガー、ランナーについて学びます。
 
 ## GitHub Actionsとは

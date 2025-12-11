@@ -2,8 +2,6 @@
 title: "Enterprise機能"
 ---
 
-# Enterprise機能
-
 この章では、GitHub EnterpriseのSAML SSO、監査ログ、その他のエンタープライズ向け機能について学びます。
 
 ## GitHub Enterpriseとは

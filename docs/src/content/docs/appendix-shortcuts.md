@@ -2,8 +2,6 @@
 title: "ショートカットキー一覧"
 ---
 
-# ショートカットキー一覧
-
 GitHub WebUI と GitHub Copilot のショートカットキーをまとめます。
 
 ## GitHub WebUI

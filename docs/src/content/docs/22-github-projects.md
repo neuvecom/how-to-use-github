@@ -2,8 +2,6 @@
 title: "GitHub Projects"
 ---
 
-# GitHub Projects
-
 この章では、GitHub Projectsを使ったプロジェクト管理について学びます。ボード、テーブル、ロードマップビューと自動化ワークフローを解説します。
 
 ## GitHub Projectsとは

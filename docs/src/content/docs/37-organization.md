@@ -2,8 +2,6 @@
 title: "Organization"
 ---
 
-# Organization
-
 この章では、GitHub Organizationの作成、メンバー管理、チーム階層、権限設定について学びます。
 
 ## Organizationとは

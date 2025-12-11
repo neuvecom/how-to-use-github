@@ -2,8 +2,6 @@
 title: "Dependabot"
 ---
 
-# Dependabot
-
 この章では、依存関係の脆弱性検出と自動更新を行うDependabotについて学びます。
 
 ## Dependabotとは

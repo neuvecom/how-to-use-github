@@ -2,8 +2,6 @@
 title: "Copilot in GitHub（Web）"
 ---
 
-# Copilot in GitHub（Web）
-
 この章では、GitHub.com上で使えるCopilot機能（PR要約、レビュー支援、Issue要約、コミットメッセージ提案）について学びます。
 
 ## 概要

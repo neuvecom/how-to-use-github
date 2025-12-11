@@ -2,8 +2,6 @@
 title: "GitHub Pages"
 ---
 
-# GitHub Pages
-
 この章では、GitHub Pagesを使った静的サイトのホスティングとカスタムドメインの設定について学びます。
 
 ## GitHub Pagesとは

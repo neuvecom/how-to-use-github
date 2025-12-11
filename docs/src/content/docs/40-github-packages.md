@@ -2,8 +2,6 @@
 title: "GitHub Packages"
 ---
 
-# GitHub Packages
-
 この章では、GitHub Packagesを使ったnpm、Docker等のパッケージホスティングについて学びます。
 
 ## GitHub Packagesとは
