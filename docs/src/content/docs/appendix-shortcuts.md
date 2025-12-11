@@ -234,4 +234,4 @@ gh alias set mypr 'pr list --author @me'
 :::note
 ショートカットはOSや設定によって異なる場合があります。
 `?` キーでGitHub上のショートカット一覧を確認できます。
-
+:::

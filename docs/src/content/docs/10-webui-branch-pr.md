@@ -56,7 +56,7 @@ https://github.com/user/repo/tree/feature-branch
 
 :::note
 デフォルトブランチは削除できません。先にデフォルトブランチを変更する必要があります。
-
+:::
 
 ### 削除したブランチの復元
 
@@ -210,7 +210,7 @@ PRが承認され、チェックが通ると「Merge pull request」が有効に
 
 :::note
 「Automatically delete head branches」を設定している場合、マージと同時にブランチが削除されます。
-
+:::
 
 ## PR のクローズ
 

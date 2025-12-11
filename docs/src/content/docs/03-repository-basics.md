@@ -62,7 +62,7 @@ gh repo create my-project \
 
 :::note
 Freeプランでもプライベートリポジトリは無制限に作成できます。
-
+:::
 
 ## README.mdの書き方
 
@@ -183,7 +183,7 @@ git config --global core.excludesfile ~/.gitignore_global
 
 :::note
 プロジェクト固有でない設定（IDE等）は、グローバル.gitignoreに書くのがベストプラクティスです。
-
+:::
 
 ## ライセンスの選択
 
@@ -319,7 +319,7 @@ OSS貢献の流れ:
 
 :::note
 プロジェクトの雛形（ボイラープレート）にはテンプレートが適しています。
-
+:::
 
 ---
 

@@ -59,7 +59,7 @@ GitHubでできること：
 
 :::note
 **ポイント**: GitはPC上で動くツール、GitHubはインターネット上のサービスです。GitなしでもGitHubのWebUIで作業できますが、本格的な開発にはGitが必要です。
-
+:::
 
 ## GitHubのサービス体系
 
@@ -114,7 +114,7 @@ https://education.github.com/
 
 :::caution
 GitLabやBitbucketにも優れた機能があります。チームの既存ツールやワークフローに合わせて選択してください。
-
+:::
 
 ---
 

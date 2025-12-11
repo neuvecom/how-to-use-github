@@ -47,7 +47,7 @@ title: "コードレビュー"
 :::note
 **Start a review** は複数のコメントをまとめて送信できます。
 **Add single comment** は即座にコメントが公開されます。
-
+:::
 
 ### 複数行へのコメント
 
@@ -182,7 +182,7 @@ Dockerfile @devops-team
 
 :::caution
 CODEOWNERSに指定されたユーザーは、リポジトリへの書き込み権限が必要です。
-
+:::
 
 ## 必須レビュー設定
 

@@ -27,7 +27,7 @@ title: "CODEOWNERS設定"
 
 :::note
 `.github/CODEOWNERS` への配置を推奨します。リポジトリの設定ファイルが一箇所にまとまります。
-
+:::
 
 ## 基本的な書き方
 
