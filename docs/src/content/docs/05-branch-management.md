@@ -1,5 +1,27 @@
 ---
 title: "ブランチ管理"
+quiz:
+  - question: "ブランチを作成して同時に切り替えるコマンドはどれですか?(Git 2.23以降)"
+    options:
+      - "git branch -c feature"
+      - "git checkout -b feature"
+      - "git switch -c feature"
+      - "git create feature"
+    answer: 2
+  - question: "Fast-forwardマージが発生する条件はどれですか?"
+    options:
+      - "マージ先のブランチが進んでいる場合"
+      - "マージ先のブランチが進んでいない場合"
+      - "コンフリクトがある場合"
+      - "複数人が同時に作業している場合"
+    answer: 1
+  - question: "リベース(rebase)の注意点として正しいものはどれですか?"
+    options:
+      - "マージコミットが作成される"
+      - "プッシュ済みのブランチでは危険"
+      - "履歴が複雑になる"
+      - "必ずコンフリクトが発生する"
+    answer: 1
 ---
 
 この章では、ブランチの作成・削除・切り替えと、GitHubでのブランチ保護ルールの設定方法を学びます。

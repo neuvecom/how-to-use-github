@@ -1,5 +1,27 @@
 ---
 title: "参考リンク集"
+quiz:
+  - question: "GitHub公式の学習コースが提供されているサイトはどれですか？"
+    options:
+      - "GitHub Academy"
+      - "GitHub Skills"
+      - "GitHub Learn"
+      - "GitHub Tutorial"
+    answer: 1
+  - question: "GitHubの障害状況を確認できるサイトはどれですか？"
+    options:
+      - "github.com/status"
+      - "status.github.com"
+      - "www.githubstatus.com"
+      - "github.com/health"
+    answer: 2
+  - question: "GitHub CLIの公式マニュアルが公開されているURLはどれですか？"
+    options:
+      - "docs.github.com/cli"
+      - "github.com/cli/docs"
+      - "cli.github.com/manual"
+      - "github.cli.docs.com"
+    answer: 2
 ---
 
 GitHub関連の公式ドキュメントや有用なリソースへのリンクをまとめます。

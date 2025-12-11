@@ -1,0 +1,27 @@
+---
+import Default from '@astrojs/starlight/components/PageFrame.astro';
+import Quiz from './Quiz';
+
+const { entry } = Astro.locals.starlightRoute || {};
+const quiz = entry?.data?.quiz;
+const pageId = entry?.id?.replace(/\.mdx?$/, '') || '';
+---
+
+<Default {...Astro.props}>
+  <slot name="header" slot="header" />
+  <slot name="sidebar" slot="sidebar" />
+  <slot />
+</Default>
+
+{quiz && quiz.length > 0 && (
+  <div class="quiz-wrapper sl-container">
+    <Quiz client:load pageId={pageId} questions={quiz} />
+  </div>
+)}
+
+<style>
+  .quiz-wrapper {
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+</style>

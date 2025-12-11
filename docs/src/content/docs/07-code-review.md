@@ -1,5 +1,27 @@
 ---
 title: "コードレビュー"
+quiz:
+  - question: "コードレビューの3つのステータスはどれですか?"
+    options:
+      - "Comment、Approve、Reject"
+      - "Comment、Approve、Request changes"
+      - "Accept、Decline、Pending"
+      - "Pass、Fail、Skip"
+    answer: 1
+  - question: "CODEOWNERSファイルの役割はどれですか?"
+    options:
+      - "リポジトリの所有者を記録する"
+      - "特定のファイルに対して自動でレビュアーを割り当てる"
+      - "コードの著作権情報を管理する"
+      - "プロジェクトのライセンスを定義する"
+    answer: 1
+  - question: "サジェスチョン機能の主な用途はどれですか?"
+    options:
+      - "新しい機能を提案する"
+      - "コードの変更を直接提案する"
+      - "レビュアーを推薦する"
+      - "マージ方法を提案する"
+    answer: 1
 ---
 
 この章では、GitHubでのコードレビューの方法を学びます。効果的なレビューはコード品質の向上とチームの成長に欠かせません。

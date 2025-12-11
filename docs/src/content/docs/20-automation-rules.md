@@ -1,5 +1,27 @@
 ---
 title: "自動化ルール"
+quiz:
+  - question: "PRの自動マージ機能を有効にする設定場所はどれですか?"
+    options:
+      - "Settings → Branches"
+      - "Settings → General → Pull Requests"
+      - "Settings → Actions"
+      - "PRページから直接有効化"
+    answer: 1
+  - question: "actions/staleツールの主な用途はどれですか?"
+    options:
+      - "PRを自動マージする"
+      - "古いIssue/PRを自動クローズする"
+      - "ラベルを自動付与する"
+      - "レビュアーを自動アサインする"
+    answer: 1
+  - question: "Dependabotの自動マージで、一般的に自動マージ対象とするバージョンアップデートはどれですか?"
+    options:
+      - "MAJOR バージョンアップデートのみ"
+      - "MINOR と PATCH バージョンアップデート"
+      - "PATCH バージョンアップデートのみ"
+      - "すべてのバージョンアップデート"
+    answer: 1
 ---
 
 この章では、GitHub の自動化機能を活用したルール設定について学びます。自動マージ、自動ラベル付け、古いIssue/PRの自動クローズなどを解説します。

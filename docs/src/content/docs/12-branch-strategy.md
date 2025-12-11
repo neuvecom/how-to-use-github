@@ -1,5 +1,27 @@
 ---
 title: "ブランチ戦略"
+quiz:
+  - question: "Git Flowの永続ブランチはどれですか?"
+    options:
+      - "mainとfeature"
+      - "mainとdevelop"
+      - "developとrelease"
+      - "mainとhotfix"
+    answer: 1
+  - question: "GitHub Flowの6つのルールに含まれないものはどれですか?"
+    options:
+      - "mainは常にデプロイ可能な状態"
+      - "新しい作業はmainからブランチを作成"
+      - "developブランチで統合する"
+      - "マージ後すぐにデプロイ"
+    answer: 2
+  - question: "Trunk Based Developmentの特徴として正しいものはどれですか?"
+    options:
+      - "長期間のfeatureブランチを使用"
+      - "短命ブランチ(1〜2日以内にマージ)"
+      - "developブランチで統合"
+      - "月1回のリリース"
+    answer: 1
 ---
 
 この章では、チーム開発で使われる代表的なブランチ戦略と、プロジェクトに合った戦略の選び方を学びます。

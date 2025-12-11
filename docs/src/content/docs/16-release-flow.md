@@ -1,5 +1,27 @@
 ---
 title: "リリースフロー"
+quiz:
+  - question: "セマンティックバージョニングのMAJOR.MINOR.PATCHで、後方互換性のない変更を行う場合、どれを上げますか?"
+    options:
+      - "PATCHのみ"
+      - "MINORのみ"
+      - "MAJORのみ"
+      - "すべてを上げる"
+    answer: 2
+  - question: "CHANGELOGファイルのKeep a Changelog形式で、破壊的変更を示すセクションはどれですか?"
+    options:
+      - "### Added"
+      - "### Changed"
+      - "### BREAKING CHANGE"
+      - "セクションによって決まる(Change, Removed等)"
+    answer: 3
+  - question: "GitHub Releasesで自動生成されるリリースノートの設定ファイルはどれですか?"
+    options:
+      - ".github/release-notes.yml"
+      - ".github/release.yml"
+      - ".github/changelog.yml"
+      - ".github/releases.yml"
+    answer: 1
 ---
 
 この章では、セマンティックバージョニング、CHANGELOG管理、タグ運用、リリースノートの自動生成について学びます。

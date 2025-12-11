@@ -1,5 +1,27 @@
 ---
 title: "GitHub Pages"
+quiz:
+  - question: "GitHub Pagesの主な用途は何ですか？"
+    options:
+      - "データベースのホスティング"
+      - "静的サイト（HTML/CSS/JS）のホスティング"
+      - "動的Webアプリケーションの実行"
+      - "ファイルのバックアップ"
+    answer: 1
+  - question: "GitHub Pagesでカスタムドメインを設定する際に必要なことは？"
+    options:
+      - "有料プランへのアップグレード"
+      - "DNSレコードの設定とリポジトリでのドメイン指定"
+      - "サーバーの購入"
+      - "特別な申請"
+    answer: 1
+  - question: "GitHub Pagesの公開ソースとして設定できるのはどれですか？"
+    options:
+      - "データベースのみ"
+      - "mainブランチ、gh-pagesブランチ、またはdocsフォルダ"
+      - "外部サーバーのみ"
+      - "ローカルファイルのみ"
+    answer: 1
 ---
 
 この章では、GitHub Pagesを使った静的サイトのホスティングとカスタムドメインの設定について学びます。

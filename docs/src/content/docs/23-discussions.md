@@ -1,5 +1,27 @@
 ---
 title: "Discussions"
+quiz:
+  - question: "GitHub DiscussionsとIssuesの主な違いは何ですか？"
+    options:
+      - "Discussionsはコード専用、Issuesは質問専用"
+      - "Discussionsはオープンな議論向け、Issuesはタスク追跡向け"
+      - "Discussionsは有料機能、Issuesは無料機能"
+      - "違いはない"
+    answer: 1
+  - question: "Discussionsのカテゴリで「Announcements」の特徴は何ですか？"
+    options:
+      - "誰でも投稿できる"
+      - "メンテナーのみが新規投稿可能"
+      - "自動で削除される"
+      - "非公開で閲覧できる"
+    answer: 1
+  - question: "DiscussionをIssueに変換できる理由は何ですか？"
+    options:
+      - "議論から具体的なタスクが生まれた場合に追跡しやすくするため"
+      - "Discussionを削除するため"
+      - "コードを実行するため"
+      - "セキュリティを強化するため"
+    answer: 0
 ---
 
 この章では、GitHub Discussionsを使ったコミュニティコミュニケーションについて学びます。

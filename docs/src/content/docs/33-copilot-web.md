@@ -1,5 +1,27 @@
 ---
 title: "Copilot in GitHub（Web）"
+quiz:
+  - question: "GitHub.com上でCopilotがPRに提供する機能は何ですか？"
+    options:
+      - "自動マージ"
+      - "PR要約の自動生成"
+      - "コードの自動修正"
+      - "ブランチの自動削除"
+    answer: 1
+  - question: "Copilotによるコミットメッセージ提案はどこで利用できますか？"
+    options:
+      - "ローカルのGitのみ"
+      - "GitHub.comのWebUI上でコミット作成時"
+      - "メールクライアント"
+      - "Slack"
+    answer: 1
+  - question: "GitHub MobileでCopilot Chatを使用する主な用途は何ですか？"
+    options:
+      - "写真の編集"
+      - "外出先でのコードに関する質問や調査"
+      - "音楽の再生"
+      - "ゲームのプレイ"
+    answer: 1
 ---
 
 この章では、GitHub.com上で使えるCopilot機能（PR要約、レビュー支援、Issue要約、コミットメッセージ提案）について学びます。

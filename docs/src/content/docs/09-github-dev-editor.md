@@ -1,5 +1,27 @@
 ---
 title: "github.devエディタ"
+quiz:
+  - question: "github.devエディタを起動する最も簡単な方法はどれですか?"
+    options:
+      - "リポジトリページでSpaceキーを押す"
+      - "リポジトリページで.(ピリオド)キーを押す"
+      - "リポジトリページでEnterキーを押す"
+      - "URLに/devを追加する"
+    answer: 1
+  - question: "github.devエディタでできないことはどれですか?"
+    options:
+      - "ファイルの編集"
+      - "複数ファイルの同時編集"
+      - "ターミナルでのコマンド実行"
+      - "コミットの作成"
+    answer: 2
+  - question: "github.devとCodespacesの主な違いはどれですか?"
+    options:
+      - "github.devは有料、Codespacesは無料"
+      - "github.devは実行不可、Codespacesは実行可能"
+      - "github.devは遅い、Codespacesは速い"
+      - "違いはない"
+    answer: 1
 ---
 
 この章では、ブラウザ上で動作するVS Code風エディタ「github.dev」の使い方を学びます。ローカル環境なしで本格的なコード編集が可能です。

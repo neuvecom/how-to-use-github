@@ -1,5 +1,27 @@
 ---
 title: "Copilot設定とカスタマイズ"
+quiz:
+  - question: "VS CodeでCopilotを特定の言語で無効にするには？"
+    options:
+      - "ファイルを削除する"
+      - "settings.jsonでgithub.copilot.enable設定を使用"
+      - "拡張機能をアンインストールする"
+      - "別のエディタを使う"
+    answer: 1
+  - question: "組織でCopilotの利用を制御するには何を設定しますか？"
+    options:
+      - "個人設定のみ"
+      - "組織ポリシー（Organization policies）"
+      - "ファイアウォール"
+      - "DNS設定"
+    answer: 1
+  - question: "Copilotのテレメトリ収集を無効にする設定は何ですか？"
+    options:
+      - "github.copilot.telemetry"
+      - "コードスニペット共有の設定"
+      - "ネットワーク設定"
+      - "無効にできない"
+    answer: 1
 ---
 
 この章では、GitHub Copilotの言語別設定、組織ポリシー、プライバシー設定について学びます。

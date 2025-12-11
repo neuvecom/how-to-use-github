@@ -1,5 +1,27 @@
 ---
 title: "GitHubとは"
+quiz:
+  - question: "GitとGitHubの違いについて正しい説明はどれですか?"
+    options:
+      - "Gitはクラウドサービス、GitHubはローカルツール"
+      - "Gitはバージョン管理システム、GitHubはホスティングサービス"
+      - "Gitは有料、GitHubは無料"
+      - "GitとGitHubは同じもの"
+    answer: 1
+  - question: "GitHubの無料プラン(Free)について正しいものはどれですか?"
+    options:
+      - "パブリックリポジトリのみ作成可能"
+      - "プライベートリポジトリは3つまで"
+      - "無制限のパブリック/プライベートリポジトリが利用可能"
+      - "GitHub Actionsは使用できない"
+    answer: 2
+  - question: "GitHubを選ぶ主な理由として適切でないものはどれですか?"
+    options:
+      - "世界最大の開発者コミュニティ"
+      - "GitHub Actions、Copilotなどの豊富なエコシステム"
+      - "セルフホスト機能が標準装備"
+      - "多くの企業・OSSプロジェクトが利用"
+    answer: 2
 ---
 
 この章では、GitHubの基本概念と、似たようなサービスとの違いを理解します。

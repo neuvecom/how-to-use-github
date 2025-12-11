@@ -1,5 +1,27 @@
 ---
 title: "GitHub CLI（gh）"
+quiz:
+  - question: "GitHub CLIの認証を開始するコマンドはどれですか？"
+    options:
+      - "gh login"
+      - "gh auth login"
+      - "gh authenticate"
+      - "gh connect"
+    answer: 1
+  - question: "GitHub CLIでPRを作成してコミットメッセージから自動入力するオプションはどれですか？"
+    options:
+      - "gh pr create --auto"
+      - "gh pr create --message"
+      - "gh pr create --fill"
+      - "gh pr create --commit"
+    answer: 2
+  - question: "GitHub CLIでREST APIを直接呼び出す方法はどれですか？"
+    options:
+      - "gh rest /user"
+      - "gh call /user"
+      - "gh api /user"
+      - "gh request /user"
+    answer: 2
 ---
 
 この章では、GitHub公式CLIツール「gh」のインストール、主要コマンド、エイリアスについて学びます。

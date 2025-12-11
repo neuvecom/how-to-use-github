@@ -1,0 +1,18 @@
+---
+import Quiz from './Quiz';
+
+interface Props {
+  pageId: string;
+  quiz?: {
+    question: string;
+    options: string[];
+    answer: number;
+  }[];
+}
+
+const { pageId, quiz } = Astro.props;
+---
+
+{quiz && quiz.length > 0 && (
+  <Quiz client:load pageId={pageId} questions={quiz} />
+)}

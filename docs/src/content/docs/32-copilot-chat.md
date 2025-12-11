@@ -1,5 +1,27 @@
 ---
 title: "Copilot Chat"
+quiz:
+  - question: "Copilot Chatでコードの説明を求めるコマンドはどれですか？"
+    options:
+      - "/help"
+      - "/explain"
+      - "/describe"
+      - "/what"
+    answer: 1
+  - question: "Copilot Chatでテストを生成するコマンドはどれですか？"
+    options:
+      - "/test"
+      - "/tests"
+      - "/generate-test"
+      - "/unittest"
+    answer: 1
+  - question: "Copilot Chatの@workspaceは何を参照しますか？"
+    options:
+      - "インターネット全体"
+      - "現在開いているワークスペースのコード"
+      - "GitHubの全リポジトリ"
+      - "外部ドキュメント"
+    answer: 1
 ---
 
 この章では、Copilot Chatを使ったコードの説明、バグ調査、リファクタリング、テスト生成について学びます。

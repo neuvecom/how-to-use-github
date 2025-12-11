@@ -1,5 +1,27 @@
 ---
 title: "ブランチ保護ルール"
+quiz:
+  - question: "mainブランチへの直接プッシュを禁止するために有効にする設定はどれですか?"
+    options:
+      - "Require signed commits"
+      - "Require a pull request before merging"
+      - "Allow force pushes"
+      - "Require linear history"
+    answer: 1
+  - question: "Dismiss stale pull request approvalsの効果はどれですか?"
+    options:
+      - "承認済みPRを自動マージする"
+      - "新しいコミットがプッシュされたら承認を無効化する"
+      - "古いPRを自動クローズする"
+      - "承認なしでマージできるようにする"
+    answer: 1
+  - question: "ブランチ保護ルールで複数のルールがマッチする場合、どのルールが適用されますか?"
+    options:
+      - "最初にマッチしたルール"
+      - "最後にマッチしたルール"
+      - "最も制限的なルール"
+      - "最も緩いルール"
+    answer: 2
 ---
 
 この章では、mainブランチへの直接プッシュ禁止、PR必須化、必須レビュー数の設定など、ブランチ保護ルールの詳細を学びます。

@@ -1,5 +1,27 @@
 ---
 title: "GitHub Packages"
+quiz:
+  - question: "GitHub Packagesがサポートするパッケージ形式は？"
+    options:
+      - "npmのみ"
+      - "npm、Docker、Maven、NuGetなど複数"
+      - "Dockerのみ"
+      - "テキストファイルのみ"
+    answer: 1
+  - question: "GitHub PackagesのContainer Registryのホスト名は？"
+    options:
+      - "packages.github.com"
+      - "ghcr.io"
+      - "docker.github.com"
+      - "registry.github.com"
+    answer: 1
+  - question: "GitHub Packagesのストレージ無料枠はFreeプランでいくらですか？"
+    options:
+      - "100MB"
+      - "500MB"
+      - "1GB"
+      - "無制限"
+    answer: 1
 ---
 
 この章では、GitHub Packagesを使ったnpm、Docker等のパッケージホスティングについて学びます。

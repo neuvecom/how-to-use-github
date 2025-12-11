@@ -1,5 +1,27 @@
 ---
 title: "アクセス管理"
+quiz:
+  - question: "リポジトリの権限レベルで「Write」ができることは何ですか？"
+    options:
+      - "リポジトリの削除"
+      - "コードのプッシュとPRのマージ"
+      - "リポジトリ設定の変更"
+      - "コラボレーターの追加"
+    answer: 1
+  - question: "Deploy Keysの特徴として正しいものはどれですか？"
+    options:
+      - "複数のリポジトリにアクセスできる"
+      - "特定のリポジトリ専用のSSHキー"
+      - "パスワードの代わりに使用する"
+      - "GitHub Actionsでのみ使用可能"
+    answer: 1
+  - question: "GitHub Appsと個人アクセストークン(PAT)の違いは何ですか？"
+    options:
+      - "PATは無料、GitHub Appsは有料"
+      - "GitHub Appsはより細かい権限制御と監査が可能"
+      - "違いはない"
+      - "PATの方がセキュリティが高い"
+    answer: 1
 ---
 
 この章では、GitHubの権限レベル、Deploy Keys、GitHub Appsなど、アクセス管理について学びます。

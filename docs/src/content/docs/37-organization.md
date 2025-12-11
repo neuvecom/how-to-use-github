@@ -1,5 +1,27 @@
 ---
 title: "Organization"
+quiz:
+  - question: "GitHub Organizationの主な用途は何ですか？"
+    options:
+      - "個人プロジェクトの管理"
+      - "チームや企業でのリポジトリとメンバーの一元管理"
+      - "ファイルのバックアップ"
+      - "メールの送信"
+    answer: 1
+  - question: "Organization内のチームの役割は何ですか？"
+    options:
+      - "コードのコンパイル"
+      - "メンバーをグループ化しリポジトリへのアクセス権限を管理"
+      - "自動テストの実行"
+      - "ドキュメントの生成"
+    answer: 1
+  - question: "Organization Ownerができることは何ですか？"
+    options:
+      - "リポジトリの閲覧のみ"
+      - "組織の全設定、メンバー管理、課金管理"
+      - "コードの編集のみ"
+      - "Issueの作成のみ"
+    answer: 1
 ---
 
 この章では、GitHub Organizationの作成、メンバー管理、チーム階層、権限設定について学びます。

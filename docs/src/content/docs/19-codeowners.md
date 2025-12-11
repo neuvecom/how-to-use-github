@@ -1,5 +1,27 @@
 ---
 title: "CODEOWNERS設定"
+quiz:
+  - question: "CODEOWNERSファイルの推奨配置場所はどれですか?"
+    options:
+      - "リポジトリのルート"
+      - ".github/CODEOWNERS"
+      - "docs/CODEOWNERS"
+      - "どこでも同じ"
+    answer: 1
+  - question: "CODEOWNERSで複数のルールがマッチした場合、どのルールが適用されますか?"
+    options:
+      - "最初にマッチしたルール"
+      - "最後にマッチしたルール"
+      - "すべてのルールが適用"
+      - "最も制限的なルール"
+    answer: 1
+  - question: "CODEOWNERSに指定されたユーザーに必要な権限はどれですか?"
+    options:
+      - "Read権限"
+      - "Write権限以上"
+      - "Admin権限"
+      - "権限は不要"
+    answer: 1
 ---
 
 この章では、CODEOWNERSファイルの書き方と活用方法を学びます。ファイルやディレクトリごとにレビュアーを自動割り当てできます。

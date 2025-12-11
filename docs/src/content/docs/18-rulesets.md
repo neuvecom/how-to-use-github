@@ -1,5 +1,27 @@
 ---
 title: "Rulesets"
+quiz:
+  - question: "Rulesetsのブランチ保護ルールとの主な違いはどれですか?"
+    options:
+      - "Rulesetsはブランチのみ対象"
+      - "Rulesetsはブランチとタグの両方に対応"
+      - "Rulesetsは無料プランでは使用不可"
+      - "Rulesetsは個人アカウントでは使用不可"
+    answer: 1
+  - question: "RulesetsのEnforcement statusで、違反を記録するが強制しないテストモードはどれですか?"
+    options:
+      - "Active"
+      - "Disabled"
+      - "Evaluate"
+      - "Testing"
+    answer: 2
+  - question: "Rulesetsで複数のルールセットがマッチする場合、どうなりますか?"
+    options:
+      - "最初のルールセットのみ適用"
+      - "最後のルールセットのみ適用"
+      - "すべてのルールが結合される"
+      - "エラーになる"
+    answer: 2
 ---
 
 この章では、GitHub の新しいルール管理機能「Rulesets」について学びます。従来のブランチ保護ルールとの違いや、より柔軟な設定方法を解説します。

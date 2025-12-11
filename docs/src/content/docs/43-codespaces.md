@@ -1,5 +1,27 @@
 ---
 title: "GitHub Codespaces"
+quiz:
+  - question: "GitHub Codespacesとは何ですか？"
+    options:
+      - "ローカルにインストールするIDE"
+      - "クラウド上でホストされる開発環境"
+      - "GitHubのファイルストレージサービス"
+      - "コードレビュー専用ツール"
+    answer: 1
+  - question: "devcontainer設定ファイルの正しいパスはどれですか？"
+    options:
+      - ".devcontainer.json"
+      - ".github/devcontainer.json"
+      - ".devcontainer/devcontainer.json"
+      - "devcontainer/config.json"
+    answer: 2
+  - question: "GitHub CLIでCodespaceを作成するコマンドはどれですか？"
+    options:
+      - "gh codespace new"
+      - "gh codespace create"
+      - "gh cs create"
+      - "gh create codespace"
+    answer: 1
 ---
 
 この章では、GitHub Codespacesを使ったクラウド開発環境とdevcontainer設定について学びます。

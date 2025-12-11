@@ -1,5 +1,27 @@
 ---
 title: "ショートカットキー一覧"
+quiz:
+  - question: "GitHub WebUIで検索バーにフォーカスするショートカットキーはどれですか？"
+    options:
+      - "Ctrl + F"
+      - "s または /"
+      - "Ctrl + S"
+      - "f"
+    answer: 1
+  - question: "リポジトリをgithub.devエディタで開くショートカットキーはどれですか？"
+    options:
+      - "e"
+      - "Ctrl + E"
+      - "."
+      - "o"
+    answer: 2
+  - question: "GitHub Copilotのコード提案を採用するキーはどれですか？"
+    options:
+      - "Enter"
+      - "Space"
+      - "Tab"
+      - "Ctrl + A"
+    answer: 2
 ---
 
 GitHub WebUI と GitHub Copilot のショートカットキーをまとめます。

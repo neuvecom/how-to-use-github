@@ -1,5 +1,27 @@
 ---
 title: "GitHub Releases"
+quiz:
+  - question: "GitHub Releasesの主な用途は何ですか？"
+    options:
+      - "コードのバックアップ"
+      - "ソフトウェアのバージョンごとの配布とリリースノートの公開"
+      - "チャットコミュニケーション"
+      - "ファイルの暗号化"
+    answer: 1
+  - question: "Releaseを作成する際に基になるのは何ですか？"
+    options:
+      - "Issue"
+      - "Gitタグ"
+      - "Pull Request"
+      - "Discussion"
+    answer: 1
+  - question: "GitHub Releasesでリリースノートを自動生成する機能の名前は？"
+    options:
+      - "Auto Notes"
+      - "Generate release notes"
+      - "Release Builder"
+      - "Note Generator"
+    answer: 1
 ---
 
 この章では、GitHub Releasesを使ったリリース作成と自動生成について学びます。

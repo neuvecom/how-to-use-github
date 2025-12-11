@@ -1,5 +1,27 @@
 ---
 title: "コミットメッセージ規約"
+quiz:
+  - question: "Conventional Commitsの基本形式として正しいものはどれですか?"
+    options:
+      - "<description>: <type>"
+      - "<type>(<scope>): <description>"
+      - "<scope>: <type> <description>"
+      - "[<type>] <description>"
+    answer: 1
+  - question: "破壊的変更を示す方法として正しいものはどれですか?"
+    options:
+      - "typeにbreakingを使う"
+      - "!を付けるか、フッターにBREAKING CHANGE:を記載"
+      - "descriptionにBREAKINGと書く"
+      - "scopeにbreakを指定"
+    answer: 1
+  - question: "commitlintツールの役割はどれですか?"
+    options:
+      - "コミットを自動生成する"
+      - "コミットメッセージの形式を自動チェックする"
+      - "コミット履歴を整理する"
+      - "コミットを自動でプッシュする"
+    answer: 1
 ---
 
 この章では、チーム開発で使われるコミットメッセージの規約と、自動チェックの方法を学びます。

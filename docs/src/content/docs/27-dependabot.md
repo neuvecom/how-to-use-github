@@ -1,5 +1,27 @@
 ---
 title: "Dependabot"
+quiz:
+  - question: "Dependabotの主な機能は何ですか？"
+    options:
+      - "コードのフォーマット"
+      - "依存関係の脆弱性検出と自動更新"
+      - "コードレビューの自動化"
+      - "ドキュメントの生成"
+    answer: 1
+  - question: "Dependabotの設定ファイルはどこに配置しますか？"
+    options:
+      - ".dependabot/config.yml"
+      - ".github/dependabot.yml"
+      - "dependabot.yml"
+      - ".config/dependabot.yml"
+    answer: 1
+  - question: "Dependabot Security Alertsは何を検出しますか？"
+    options:
+      - "コードのスタイル違反"
+      - "依存パッケージの既知の脆弱性"
+      - "パフォーマンスの問題"
+      - "未使用のコード"
+    answer: 1
 ---
 
 この章では、依存関係の脆弱性検出と自動更新を行うDependabotについて学びます。

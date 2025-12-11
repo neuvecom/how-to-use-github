@@ -1,5 +1,27 @@
 ---
 title: "WebUIからのデプロイ"
+quiz:
+  - question: "workflow_dispatchの役割はどれですか?"
+    options:
+      - "自動でデプロイを実行する"
+      - "WebUIからワークフローを手動実行できるようにする"
+      - "デプロイのログを表示する"
+      - "デプロイ先を自動選択する"
+    answer: 1
+  - question: "GitHub EnvironmentsのRequired reviewersの役割はどれですか?"
+    options:
+      - "コードレビューを強制する"
+      - "デプロイ前に指定したユーザーの承認を必要とする"
+      - "レビュアーを自動アサインする"
+      - "承認されたコードのみビルドする"
+    answer: 1
+  - question: "Releaseトリガーで本番デプロイを実行する際、プレリリースと本番を区別する方法はどれですか?"
+    options:
+      - "ブランチ名で区別する"
+      - "github.event.release.prereleaseフラグで判定する"
+      - "タグ名で区別する"
+      - "デプロイ時刻で区別する"
+    answer: 1
 ---
 
 この章では、GitHub の Web UI からデプロイを実行する方法を学びます。GitHub Actions を活用して、ブラウザから本番環境へのデプロイが可能です。

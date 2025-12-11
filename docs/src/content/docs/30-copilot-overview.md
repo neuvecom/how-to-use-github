@@ -1,5 +1,27 @@
 ---
 title: "Copilot概要"
+quiz:
+  - question: "GitHub Copilotの基盤となっているAIモデルは何ですか？"
+    options:
+      - "BERT"
+      - "GPT系の大規模言語モデル"
+      - "画像認識AI"
+      - "音声認識AI"
+    answer: 1
+  - question: "GitHub Copilot Individualの月額料金はいくらですか？"
+    options:
+      - "無料"
+      - "$10/月"
+      - "$19/月"
+      - "$39/月"
+    answer: 1
+  - question: "GitHub Copilotが対応している主なエディタはどれですか？"
+    options:
+      - "メモ帳のみ"
+      - "VS Code、JetBrains IDE、Neovimなど"
+      - "Wordのみ"
+      - "Excelのみ"
+    answer: 1
 ---
 
 この章では、GitHub Copilotの概要、料金プラン、対応エディタ、利用規約について学びます。

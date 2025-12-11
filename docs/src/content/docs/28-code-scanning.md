@@ -1,5 +1,27 @@
 ---
 title: "Code Scanning & Secret Scanning"
+quiz:
+  - question: "GitHub Code Scanningで使用されるデフォルトの解析エンジンは何ですか？"
+    options:
+      - "SonarQube"
+      - "CodeQL"
+      - "ESLint"
+      - "Checkmarx"
+    answer: 1
+  - question: "Secret Scanningの主な目的は何ですか？"
+    options:
+      - "コードの品質チェック"
+      - "APIキーやパスワードなどの機密情報漏洩を検出"
+      - "パフォーマンスの最適化"
+      - "依存関係の更新"
+    answer: 1
+  - question: "Push Protectionが有効な場合、シークレットを含むプッシュはどうなりますか？"
+    options:
+      - "自動的にシークレットが削除される"
+      - "警告が表示されるがプッシュは成功する"
+      - "プッシュがブロックされる"
+      - "管理者に通知が送られるだけ"
+    answer: 2
 ---
 
 この章では、コードの脆弱性を検出するCode Scanningと、シークレットの漏洩を防ぐSecret Scanningについて学びます。

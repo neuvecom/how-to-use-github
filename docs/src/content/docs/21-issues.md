@@ -1,5 +1,27 @@
 ---
 title: "Issues"
+quiz:
+  - question: "GitHub Issuesの主な用途として正しいものはどれですか？"
+    options:
+      - "コードのバージョン管理"
+      - "タスク、バグ、機能要望の追跡・管理"
+      - "ファイルのホスティング"
+      - "チャットコミュニケーション"
+    answer: 1
+  - question: "Issueテンプレートを配置するディレクトリはどれですか？"
+    options:
+      - ".github/templates/"
+      - ".github/ISSUE_TEMPLATE/"
+      - "templates/issues/"
+      - "issues/"
+    answer: 1
+  - question: "Issueのマイルストーンの主な用途は何ですか？"
+    options:
+      - "コードレビューの管理"
+      - "リリースや期限に向けたIssueのグループ化"
+      - "ブランチの保護"
+      - "自動テストの実行"
+    answer: 1
 ---
 
 この章では、GitHub Issuesの作成・管理方法、テンプレートの設定、ラベル・マイルストーンの活用を学びます。

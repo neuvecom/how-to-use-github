@@ -1,5 +1,27 @@
 ---
 title: "Enterprise機能"
+quiz:
+  - question: "GitHub Enterprise Cloud のSAML SSOの主な目的は何ですか？"
+    options:
+      - "コードの高速化"
+      - "企業の既存ID管理システムとの統合認証"
+      - "ストレージの拡張"
+      - "デプロイの自動化"
+    answer: 1
+  - question: "監査ログ（Audit Log）で確認できることは何ですか？"
+    options:
+      - "コードの品質"
+      - "組織内で誰がいつ何を行ったかの記録"
+      - "ファイルのサイズ"
+      - "ネットワーク速度"
+    answer: 1
+  - question: "GitHub Enterprise ServerとCloudの違いは何ですか？"
+    options:
+      - "Serverは無料、Cloudは有料"
+      - "Serverはセルフホスト、CloudはGitHubが管理"
+      - "違いはない"
+      - "Cloudはオフラインのみ"
+    answer: 1
 ---
 
 この章では、GitHub EnterpriseのSAML SSO、監査ログ、その他のエンタープライズ向け機能について学びます。

@@ -1,5 +1,27 @@
 ---
 title: "GitHub Actions応用"
+quiz:
+  - question: "マトリックスビルドの主な用途は何ですか？"
+    options:
+      - "ファイルを圧縮する"
+      - "複数の環境（OS、言語バージョン等）で並列テストする"
+      - "データベースを作成する"
+      - "メールを送信する"
+    answer: 1
+  - question: "GitHub Actionsでシークレットを参照する正しい構文はどれですか？"
+    options:
+      - "$SECRET_NAME"
+      - "secrets.SECRET_NAME"
+      - "${{ secrets.SECRET_NAME }}"
+      - "env.SECRET_NAME"
+    answer: 2
+  - question: "ワークフローのキャッシュを使用する主なメリットは何ですか？"
+    options:
+      - "セキュリティの向上"
+      - "依存関係のインストール時間を短縮"
+      - "コードの品質向上"
+      - "ログの削減"
+    answer: 1
 ---
 
 この章では、マトリックスビルド、シークレット、キャッシュ、再利用可能ワークフローなど、応用的な機能を学びます。

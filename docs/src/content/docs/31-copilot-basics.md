@@ -1,5 +1,27 @@
 ---
 title: "Copilot基本機能"
+quiz:
+  - question: "Copilotの補完候補を受け入れるキーは何ですか？"
+    options:
+      - "Enter"
+      - "Tab"
+      - "Space"
+      - "Ctrl+C"
+    answer: 1
+  - question: "Copilotで複数の補完候補を表示するには？"
+    options:
+      - "F1キーを押す"
+      - "Ctrl+Enter（またはCmd+Enter）を押す"
+      - "右クリックする"
+      - "Escキーを押す"
+    answer: 1
+  - question: "コメントからコードを生成するCopilotの機能を活用するには？"
+    options:
+      - "特別なコマンドを実行する"
+      - "自然言語でコメントを書いてEnterを押す"
+      - "設定画面で有効にする"
+      - "有料プランにアップグレードする"
+    answer: 1
 ---
 
 この章では、GitHub Copilotのコード補完機能、複数候補の表示、コメントからのコード生成について学びます。

@@ -1,5 +1,27 @@
 ---
 title: "Gists & Wiki"
+quiz:
+  - question: "GistとWikiの主な違いとして正しいものはどれですか？"
+    options:
+      - "GistはドキュメントでWikiはコードスニペット"
+      - "Gistはコードスニペット共有でWikiはプロジェクトドキュメント"
+      - "GistとWikiは同じ機能の別名"
+      - "GistはPrivate専用でWikiはPublic専用"
+    answer: 1
+  - question: "GitHub CLIでGistを作成するコマンドはどれですか？"
+    options:
+      - "gh gist new script.py"
+      - "gh gist create script.py"
+      - "gh gist add script.py"
+      - "gh gist upload script.py"
+    answer: 1
+  - question: "Wikiのサイドバーをカスタマイズするファイル名は何ですか？"
+    options:
+      - "sidebar.md"
+      - "_Navigation.md"
+      - "_Sidebar.md"
+      - "menu.md"
+    answer: 2
 ---
 
 この章では、コードスニペット共有のためのGistsと、プロジェクトドキュメントのためのWikiについて学びます。

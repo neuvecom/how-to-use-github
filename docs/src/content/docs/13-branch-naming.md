@@ -1,5 +1,27 @@
 ---
 title: "ブランチ命名規則"
+quiz:
+  - question: "ブランチ命名規則の基本パターンとして正しいものはどれですか?"
+    options:
+      - "<説明>/<種類>"
+      - "<種類>/<説明>"
+      - "<日付>/<種類>/<説明>"
+      - "<担当者>/<種類>/<説明>"
+    answer: 1
+  - question: "避けるべきブランチ名はどれですか?"
+    options:
+      - "feature/add-oauth-login"
+      - "fix/123-login-error"
+      - "feature/fix"
+      - "docs/update-readme"
+    answer: 2
+  - question: "GitHub IssueからブランチをWebUIで作成する際、どこから作成しますか?"
+    options:
+      - "Issueページの上部メニュー"
+      - "Issueページの右側サイドバー「Development」セクション"
+      - "Repositoryのmainページ"
+      - "Branchesページ"
+    answer: 1
 ---
 
 この章では、チーム開発で使われるブランチの命名規則と、Issue/チケット番号との連携方法を学びます。

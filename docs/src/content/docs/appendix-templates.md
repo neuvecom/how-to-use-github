@@ -1,5 +1,27 @@
 ---
 title: "サンプルテンプレート集"
+quiz:
+  - question: "Issueテンプレートを配置する正しいディレクトリはどれですか？"
+    options:
+      - ".github/templates/"
+      - ".github/ISSUE_TEMPLATE/"
+      - "templates/issues/"
+      - ".issues/"
+    answer: 1
+  - question: "CODEOWNERSファイルの役割は何ですか？"
+    options:
+      - "リポジトリの所有者を表示する"
+      - "ファイルやディレクトリごとにレビュアーを自動指定する"
+      - "コードの著作権を管理する"
+      - "アクセス権限を設定する"
+    answer: 1
+  - question: "Dependabotの設定ファイル名は何ですか？"
+    options:
+      - ".dependabot.yml"
+      - "dependabot.config.yml"
+      - ".github/dependabot.yml"
+      - "config/dependabot.yml"
+    answer: 2
 ---
 
 すぐに使えるGitHub関連のテンプレートをまとめます。

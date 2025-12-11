@@ -1,5 +1,27 @@
 ---
 title: "GitHub Actions基礎"
+quiz:
+  - question: "GitHub Actionsのワークフローファイルを配置するディレクトリはどれですか？"
+    options:
+      - ".github/actions/"
+      - ".github/workflows/"
+      - "workflows/"
+      - "actions/"
+    answer: 1
+  - question: "pushイベントでワークフローをトリガーする設定として正しいものはどれですか？"
+    options:
+      - "trigger: push"
+      - "event: push"
+      - "on: push"
+      - "when: push"
+    answer: 2
+  - question: "GitHub-hostedランナーとself-hostedランナーの違いは何ですか？"
+    options:
+      - "GitHub-hostedはGitHubが管理、self-hostedは自分で管理"
+      - "GitHub-hostedは無料、self-hostedは有料"
+      - "GitHub-hostedはLinuxのみ、self-hostedはWindowsのみ"
+      - "違いはない"
+    answer: 0
 ---
 
 この章では、GitHub Actionsの基本概念、ワークフローの構造、トリガー、ランナーについて学びます。

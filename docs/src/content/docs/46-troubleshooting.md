@@ -1,5 +1,27 @@
 ---
 title: "よくあるトラブルと解決法"
+quiz:
+  - question: "SSH接続で「Permission denied (publickey)」エラーが出た場合、最初に確認すべきことは？"
+    options:
+      - "GitHubのパスワードを変更する"
+      - "SSH鍵が存在し、SSH Agentに追加されているか確認する"
+      - "新しいリポジトリを作成する"
+      - "ブラウザでGitHubにログインする"
+    answer: 1
+  - question: "マージコンフリクト解決後に実行すべきコマンドの順序として正しいものは？"
+    options:
+      - "git push → git add → git commit"
+      - "git commit → git add → git push"
+      - "git add → git commit → git push"
+      - "git merge → git add → git commit"
+    answer: 2
+  - question: "プッシュ済みのコミットを安全に取り消す方法はどれですか？"
+    options:
+      - "git reset --hard HEAD~1"
+      - "git delete commit"
+      - "git revert <commit-hash>"
+      - "git undo push"
+    answer: 2
 ---
 
 この章では、GitHubを使う上でよくあるトラブルとその解決方法について学びます。

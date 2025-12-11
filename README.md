@@ -2,6 +2,8 @@
 
 GitHubの基本から応用、AI活用までを網羅的に解説する完全ガイドです。
 
+http://neuve.com/how-to-use-github/01-what-is-github/
+
 ## 概要
 
 このリポジトリは、GitHubを体系的に学ぶためのドキュメントサイトのソースコードです。初心者から中級者まで、GitHubの機能を網羅的に解説しています。

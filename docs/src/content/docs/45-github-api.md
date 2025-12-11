@@ -1,5 +1,27 @@
 ---
 title: "GitHub API"
+quiz:
+  - question: "GitHub APIの2つの種類として正しい組み合わせはどれですか？"
+    options:
+      - "SOAP APIとREST API"
+      - "REST APIとGraphQL API"
+      - "XML APIとJSON API"
+      - "CRUD APIとQuery API"
+    answer: 1
+  - question: "GitHub REST APIの認証ヘッダーとして正しいものはどれですか？"
+    options:
+      - "X-GitHub-Token: <token>"
+      - "API-Key: <token>"
+      - "Authorization: Bearer <token>"
+      - "Auth: <token>"
+    answer: 2
+  - question: "Webhookとは何ですか？"
+    options:
+      - "手動でAPIを呼び出す機能"
+      - "イベント発生時に指定URLにHTTPリクエストを送信する機能"
+      - "GitHubのバックアップ機能"
+      - "コードを自動修正する機能"
+    answer: 1
 ---
 
 この章では、GitHub REST APIとGraphQL API、Webhooksについて学びます。
