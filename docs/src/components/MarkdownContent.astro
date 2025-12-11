@@ -1,5 +1,5 @@
 ---
-import Default from '@astrojs/starlight/components/PageFrame.astro';
+import '@astrojs/starlight/style/markdown.css';
 import Quiz from './Quiz';
 
 const { entry } = Astro.locals.starlightRoute || {};
@@ -7,19 +7,17 @@ const quiz = entry?.data?.quiz;
 const pageId = entry?.id?.replace(/\.mdx?$/, '') || '';
 ---
 
-<Default {...Astro.props}>
-  <slot name="header" slot="header" />
-  <slot name="sidebar" slot="sidebar" />
+<div class="sl-markdown-content">
   <slot />
   {quiz && quiz.length > 0 && (
     <div class="quiz-wrapper">
       <Quiz client:load pageId={pageId} questions={quiz} />
     </div>
   )}
-</Default>
+</div>
 
 <style>
   .quiz-wrapper {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 </style>

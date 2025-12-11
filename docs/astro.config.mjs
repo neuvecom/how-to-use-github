@@ -22,7 +22,7 @@ export default defineConfig({
             { icon: 'github', label: 'GitHub', href: 'https://github.com/neuvecom/how-to-use-github' },
         ],
         components: {
-            PageFrame: './src/components/PageFrame.astro',
+            MarkdownContent: './src/components/MarkdownContent.astro',
         },
         sidebar: [
             { label: '学習進捗', link: '/progress/' },
