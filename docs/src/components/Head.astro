@@ -4,9 +4,35 @@ const GA4_MEASUREMENT_ID = import.meta.env.PUBLIC_GA4_MEASUREMENT_ID || '';
 const CF_BEACON_TOKEN = import.meta.env.PUBLIC_CF_BEACON_TOKEN || '';
 
 const { head } = Astro.locals.starlightRoute;
+
+// neuvecom-common 広告設定
+const AFFILIATE_SID = '3757792';
 ---
 
 {head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
+
+<!-- neuvecom-common クイズ・広告システム -->
+<script is:inline src="/how-to-use-github/lib/js/affiliate.js"></script>
+<script is:inline src="/how-to-use-github/lib/js/quiz.js"></script>
+<script is:inline define:vars={{ AFFILIATE_SID }}>
+  // 広告バナーの初期化
+  document.addEventListener('DOMContentLoaded', function() {
+    window.affiliateBanner = new NeuvecomAffiliateBanner({
+      sid: AFFILIATE_SID,
+      storageKeyPrefix: 'github-guide',
+      configPath: '/how-to-use-github/data/affiliates.yaml',
+      fallbackImagesPath: '/how-to-use-github/lib/img/'
+    });
+
+    // クイズシステムの初期化
+    if (window.NeuvecomQuiz) {
+      NeuvecomQuiz.init({
+        storageKeyPrefix: 'github-guide-quiz-',
+        affiliateBannerInstance: window.affiliateBanner
+      });
+    }
+  });
+</script>
 
 {GA4_MEASUREMENT_ID && (
   <>

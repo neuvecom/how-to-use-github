@@ -148,6 +148,11 @@ export default defineConfig({
                 ],
             },
         ],
-        customCss: ['./src/styles/custom.css'],
+        customCss: [
+            '../lib/css/variables.css',
+            '../lib/css/quiz.css',
+            '../lib/css/affiliate.css',
+            './src/styles/custom.css',
+        ],
 		}), react()],
 });
