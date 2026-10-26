@@ -24,6 +24,7 @@ export default defineConfig({
         components: {
             MarkdownContent: './src/components/MarkdownContent.astro',
             Head: './src/components/Head.astro',
+            Footer: './src/components/Footer.astro',
         },
         sidebar: [
             { label: '学習進捗', link: '/progress/' },
@@ -151,7 +152,6 @@ export default defineConfig({
         customCss: [
             '../lib/css/variables.css',
             '../lib/css/quiz.css',
-            '../lib/css/affiliate.css',
             './src/styles/custom.css',
         ],
 		}), react()],
