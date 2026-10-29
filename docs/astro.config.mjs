@@ -25,6 +25,8 @@ export default defineConfig({
             MarkdownContent: './src/components/MarkdownContent.astro',
             Head: './src/components/Head.astro',
             Footer: './src/components/Footer.astro',
+            // ヘッダー右側にログイン状態を表示する（全コース共通ログイン）
+            SocialIcons: './src/components/SocialIcons.astro',
         },
         sidebar: [
             { label: '学習進捗', link: '/progress/' },

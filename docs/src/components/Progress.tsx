@@ -13,8 +13,8 @@ interface PartInfo {
 
 const STORAGE_KEY_PREFIX = 'github-guide-quiz-';
 
-// 全章の構成データ
-const parts: PartInfo[] = [
+// 全章の構成データ（course.json の書き出しにも使う）
+export const parts: PartInfo[] = [
   {
     label: '第1部：入門編',
     chapters: [
@@ -150,6 +150,9 @@ export default function Progress() {
   useEffect(() => {
     loadResults();
     setIsLoaded(true);
+    // 別の端末の進捗がこの端末に書き戻されたら表示を更新する（全コース共通キットが発行）
+    window.addEventListener('neuve-learn:synced', loadResults);
+    return () => window.removeEventListener('neuve-learn:synced', loadResults);
   }, []);
 
   const loadResults = () => {
