@@ -1,0 +1,16 @@
+---
+// ヘッダー右側: 既定のアイコンに加えて、全コース共通のログイン状態（<neuve-auth>）を表示する
+import Default from '@astrojs/starlight/components/SocialIcons.astro';
+---
+
+<Default />
+<neuve-auth class="auth-status"></neuve-auth>
+
+<style>
+  .auth-status {
+    display: inline-flex;
+    font-size: var(--sl-text-sm);
+    --neuve-auth-color: var(--sl-color-text-accent);
+    --neuve-auth-hover: var(--sl-color-white);
+  }
+</style>

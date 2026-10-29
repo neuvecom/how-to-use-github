@@ -21,6 +21,18 @@ const { head } = Astro.locals.starlightRoute;
   });
 </script>
 
+<!-- 全コース共通のログインと進捗同期（neuvecom/learn の共通キット） -->
+<script is:inline type="module" src="https://neuve.com/learn/kit/neuve-learn.js"></script>
+<script is:inline type="module">
+  // クイズの結果（localStorage の github-guide-quiz-<章ID>）をログイン中は端末間で同期する
+  import { mirrorLocalStorage } from 'https://neuve.com/learn/kit/neuve-learn.js';
+  mirrorLocalStorage({
+    course: 'github',
+    prefix: 'github-guide-quiz-',
+    isDone: (value) => JSON.parse(value).completed === true,
+  });
+</script>
+
 {GA4_MEASUREMENT_ID && (
   <>
     <!-- Google Analytics 4 -->
