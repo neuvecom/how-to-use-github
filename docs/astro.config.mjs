@@ -31,6 +31,15 @@ export default defineConfig({
         sidebar: [
             { label: '学習進捗', link: '/progress/' },
             {
+                label: 'クイックマスター（30分）',
+                items: [
+                    { label: 'GitHubを30分でつかむ', link: '/quick-01-overview/' },
+                    { label: '最初の1時間でやること', link: '/quick-02-first-hour/' },
+                    { label: '毎日使う5つの操作', link: '/quick-03-essentials/' },
+                    { label: '目的別の読む順番', link: '/quick-04-routes/' },
+                ],
+            },
+            {
                 label: '第1部：入門編',
                 items: [
                     { label: 'GitHubとは', link: '/01-what-is-github/' },

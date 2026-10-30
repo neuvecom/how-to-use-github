@@ -16,6 +16,15 @@ const STORAGE_KEY_PREFIX = 'github-guide-quiz-';
 // 全章の構成データ（course.json の書き出しにも使う）
 export const parts: PartInfo[] = [
   {
+    label: 'クイックマスター',
+    chapters: [
+      { id: 'quick-01-overview', title: 'GitHubを30分でつかむ', link: '/how-to-use-github/quick-01-overview/' },
+      { id: 'quick-02-first-hour', title: '最初の1時間でやること', link: '/how-to-use-github/quick-02-first-hour/' },
+      { id: 'quick-03-essentials', title: '毎日使う5つの操作', link: '/how-to-use-github/quick-03-essentials/' },
+      { id: 'quick-04-routes', title: '目的別の読む順番', link: '/how-to-use-github/quick-04-routes/' },
+    ],
+  },
+  {
     label: '第1部：入門編',
     chapters: [
       { id: '01-what-is-github', title: 'GitHubとは', link: '/how-to-use-github/01-what-is-github/' },
